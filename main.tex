@@ -111,28 +111,37 @@ Find:\\
 \\\textbf{Solution:}\\
 Given,\\
 \hspace*{10pt}$\vec{M}$ and $\vec{N}$ are two points on X and Y axes respectively.\\
-\hspace*{10pt}Let 
+Define:
 \begin{align}
- \vec{M} &= \myvec {a \\ 0}\\
- \vec{N} &= \myvec {0 \\ b}
+\vec{e_1} &=\myvec{1 \\ 0}\\
+\vec{e_2} &=\myvec{0 \\ 1}
+\end{align}
+Let 
+\begin{align}
+ \vec{M} &= a\vec{e_1}\\
+ \vec{N} &= b\vec{e_2}
 \end{align}
 \hspace*{10pt}$\vec{P}$ divides MN in the ratio 2:3.\\
 According to Section formula,
 \begin{align}
-   \vec{P} &= \myvec{\dfrac{2(0)+3(a)}{2+3} \\\\ \dfrac{2(b)+3(0)}{2+3}}\\
-   \vec{P} &= \myvec{\dfrac{3a}{5} \\\\ \dfrac{2b}{5}}
+   \vec{P} &= \dfrac{2(\vec{N})+3(\vec{M})}{2+3}\\
+   \vec{P} &= \dfrac{2b\vec{e_2}+3a\vec{e_1}}{5}\\
+   \vec{P} &= \left( \dfrac{3a}{5}\right) \vec{e_1}+\left( \dfrac{2b}{5}\right) \vec{e_2}
 \end{align}
 But we have,\\
-  $\vec{P} = \myvec{3 \\ 2}\\ $
+ $ \vec{P} = \myvec{3 \\ 2}$\\ 
 \begin{figure}[h]
 \centering  
 \includegraphics[width=\columnwidth]{figures/Figure_1.png} 
 \end{figure}
-Therefore,\\
- $\myvec{\dfrac{3a}{5} \\\\ \dfrac{2b}{5}}=\myvec{3 \\ 2}\\$
-  $\implies$ a = 5 and b = 5\\
- 
+Therefore,
+\begin{align}
+ \left( \dfrac{3a}{5}\right) \vec{e_1}+\left( \dfrac{2b}{5}\right) \vec{e_2} &= \myvec{3 \\ 2}\\
+ \left( \dfrac{3a}{5}\right) \vec{e_1}+\left( \dfrac{2b}{5}\right) \vec{e_2} &= 3\vec{e_1}+2\vec{e_2}
+\end{align}
+  $\implies$ $\dfrac{3a}{5} = 3$ and $\dfrac{2b}{5} = 2$\\\\
+  $\implies$ a = 5 and b = 5\\\\ 
 (i)$\vec{M} = \myvec{5 \\ 0}$ and $\vec{N} = \myvec{0 \\ 5}$\\\\
-\hspace*{10pt}(ii) Slope of MN = $\dfrac{5-0}{0-5}$\\\\
-     \hspace*{95pt} = -1
+(ii) Slope of MN = $\dfrac{5-0}{0-5}$\\\\
+     \hspace*{85pt} = -1
 \end{document}
