@@ -109,28 +109,39 @@ Find:\\
  (i)the coordinates of $\vec{M}$ and $\vec{N}$\\
  (ii)the slope of MN.\\\\
 \\\textbf{Solution:}\\
-Given,\\
-\hspace*{10pt}$\vec{M}$ and $\vec{N}$ are two points on X and Y axes respectively.\\
-Define:
-\begin{align}
-\vec{e_1} &=\myvec{1 \\ 0}\\
-\vec{e_2} &=\myvec{0 \\ 1}
-\end{align}
-Let 
-\begin{align}
- \vec{M} &= a\vec{e_1}\\
- \vec{N} &= b\vec{e_2}
-\end{align}
-\hspace*{10pt}$\vec{P}$ divides MN in the ratio 2:3.\\\\
-According to Section formula,
-If $\vec{P}$ divides MN in the ratio k:1,then:\\
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Symbol & Value & Description\\
+\hline
+\hline
+P & $\myvec{3\\2}$ & Given point\\
+\hline
+$e_1$ & $\myvec{1\\0}$ & Standard X-axis vector\\
+\hline
+$e_2$ & $\myvec{0\\1}$ & Standard Y-axis vector\\
+\hline
+M & $ae_1$ & A point on X-axis and $a\in N$\\
+\hline
+N & $be_2$ & A point on Y-axis and $b\in N$\\
+\hline
+k & $\dfrac{2}{3}$ & Ratio in which P divides MN\\
+\hline
+\end{tabular}
+\caption{variables}
+\label{tab:variables}
+\end{table}
+Various paraetres used in this question are:\\
+According to Section formula,\\
+If $\vec{P}$ divides MN in the ratio k:1,then:
 \begin{align}
    \vec{P} &= \dfrac{k(\vec{N})+1(\vec{M})}{k+1}\\
    \vec{P} &= \dfrac{bk\vec{e_2}+a\vec{e_1}}{k+1}\\
    \vec{P} &= \left( \dfrac{a}{k+1}\right) \vec{e_1}+\left( \dfrac{bk}{k+1}\right) \vec{e_2}
 \end{align}\\
-But we have,\\\\
- $ \vec{P} = \myvec{3 \\ 2}$\\\\\\\\
+But we have,\\
+ $ \vec{P} = \myvec{3 \\ 2}$\\
 \begin{figure}[h]
 \centering  
 \includegraphics[width=\columnwidth]{figures/Figure_1.png} 
