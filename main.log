@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.31)  18 APR 2022 09:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.31)  19 APR 2022 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,13 +1014,12 @@ cm/cmbx9.pfb><C:/mixtek/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/mixtek/fo
 nts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/mixtek/fonts/type1/public/amsfo
 nts/cm/cmmi12.pfb><C:/mixtek/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/mixte
 k/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/mixtek/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb><C:/mixtek/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/mixtek/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/mixtek/fonts/type1/public/amsfonts/
-cm/cmsy9.pfb><C:/mixtek/fonts/type1/urw/times/utmb8a.pfb><C:/mixtek/fonts/type1
-/urw/times/utmr8a.pfb>
-Output written on main.pdf (1 page, 164509 bytes).
+ts/cm/cmr9.pfb><C:/mixtek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/mixtek/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/mixtek/fonts/type1/urw/times/utmb8
+a.pfb><C:/mixtek/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (1 page, 155840 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
