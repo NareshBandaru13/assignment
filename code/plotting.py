@@ -5,4 +5,5 @@ def f(x):
 xlist=np.linspace(-1,6,1000)
 ylist=f(xlist)
 plt.plot(xlist,ylist)
+plt.grid(b=True,axis="both")
 plt.show()
